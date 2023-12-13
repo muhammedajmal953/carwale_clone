@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: LatoGoogle, Lato, LatoWeb, sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+ul.logo {
+    display: flex;
+    list-style: none;
+}
+
+.head1 {
+    margin: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headItem {
+    margin-top: 12px;
+
+
+}
+
+.searchBar {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.head2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.portion1 {
+    background-image: url(Images/homehead.jpg);
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.carSearchBox {
+    height: 46px;
+    width: 668px;
+    display: inline-block;
+    background-color: white;
+    text-align: initial;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+
+
+}
+
+.carSearch {
+
+
+    padding-top: 255px;
+    text-align: center;
+
+}
+
+.eg {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: smaller;
+    margin-top: 10px;
+
+}
+
+.searchBtn {
+    margin-left: 300px;
+    height: inherit;
+    width: 95px;
+    background-color: #E53012;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.UsedOrNew {
+    height: inherit;
+    border-style: none;
+    background-color: #E1E1E1;
+}
+
+.FeaturedCars {
+    margin-left: 142px;
+
+}
+
+.sort1 {
+    display: flex;
+    border-bottom-style: solid;
+    margin: 20px;
+    border-width: 1px;
+    border-color: lightgray;
+    padding-bottom: 20px;
+    color: rgb(48, 46, 46);
+    font-size: large;
+}
+
+.Trend {
+    color: #00AFA0;
+    border-bottom-style: solid;
+    border-width: 4px;
+}
+
+h5.sort1Name {
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+.carDetails {
+    display: flex;
+}
+
+.car {
+    border-style: solid;
+    border-width: 1px;
+    width: 310px;
+    height: 346px;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    border-color: lightgray;
+    margin-left: 20px;
+    color: rgb(61, 58, 58);
+    padding-left: 10px;
+
+}
+
+.on {
+    color: gray;
+    font-size: small;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.cardBtn {
+    background-color: white;
+    border-color: #AEE6E1;
+    border-style: solid;
+    height: 33px;
+    width: 164px;
+    font-weight: bold;
+    color: #AEE6E1;
+}
+
+.brands {
+    margin-left: 160px;
+    margin-top: 40px;
+}
+
+.brands h2 {
+    margin-bottom: 20px;
+}
+
+.brandNames img {
+    height: 58px;
+    width: 107px;
+}
+
+.brandNames {
+    display: flex;
+    text-align: center;
+    border-width: 1px;
+    height: 133px;
+    width: 996px;
+}
+
+.brandNames div {
+    padding-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-right: none;
+    width: 168px;
+    border-color: lightgrey;
+
+}
+
+#bmw {
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.Two div {
+    border-top: none;
+
+}
+
+#MG {
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.viewMore {
+    width: 994px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-top: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.findChoice,
+.topCarsIndia {
+    margin-left: 162px;
+    margin-top: 40px;
+}
+
+.findChoice h2 {
+    margin-bottom: 20px;
+    color: rgb(19, 18, 18);
+
+}
+
+.choiceType {
+    display: flex;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    width: 996px;
+
+}
+
+.choiceType h5 {
+    margin-right: 25px;
+    font-size: medium;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+#budget {
+    color: #00AFA0;
+    border-bottom-style: solid;
+    border-width: 4px;
+}
+
+.priceRange {
+    width: 934px;
+    height: fit-content;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+}
+
+.priceRange div {
+    margin: 10px;
+}
+
+.priceRange button {
+    padding: 10px;
+    width: fit-content;
+    height: 38px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    color: grey;
+    background-color: white;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.priceRange button:hover {
+    color: #00AFA0;
+    border-color: #00AFA0;
+}
+
+.topCars {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin-top: 20px;
+
+}
+
+.topCars div {
+    border-style: solid;
+    background-color: #F9F9F9;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 5px;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+
+.topCars p {
+    font-size: small;
+    margin: 10px;
+    color: gray;
+}
+
+.topCars img {
+    width: 310px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.topCars h4 {
+    margin: 10px;
+}
+
+.onRoadPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 433px;
+    width: 1280px;
+    background-image: url(Images/OnRoadPrice.jpg);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.onRoadPrice .cityPrice {
+    color: white;
+    padding: 20px;
+    height: 227px;
+    width: 388px;
+    line-height: 40px;
+    background-color: rgba(14, 13, 13, .5);
+    margin-right: 400px;
+    border-radius: 5px;
+
+}
+
+.searchCar,
+.selectCity {
+    padding: 10px;
+    height: 28px;
+    width: 328px;
+    margin-top: 20px;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.cityPrice input {
+    border-style: none;
+    width: 290px;
+    font-size: 15px;
+
+
+}
+
+.cityPrice .material-icons {
+    font-size: medium;
+    color: gray;
+}
+
+.cityPrice span {
+    font-size: small;
+}
+
+.usedCarsIndia {
+    margin-top: 40px;
+    margin-left: 162px;
+}
+
+.usedCars {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.usedCars div {
+    border-style: solid;
+    background-color: #F9F9F9;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 5px;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+
+.usedCars p {
+
+    margin: 10px;
+}
+
+.usedCars img {
+    width: 310px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.usedCars h4 {
+    display: inline;
+    margin: 10px;
+}
+
+.usedCars span {
+    font-size: smaller;
+    color: gray;
+}
+
+.usedCarsIndia a {
+
+    color: #00AFA0;
+    font-weight: bold;
+    font-size: medium;
+
+
+}
+
+footer {
+    margin-top: 20px;
+    margin-top: 0;
+    width: 100%;
+    height: 315px;
+    background-color: #002B51;
+}
+
+.footerHead {
+    margin-top: 40px;
+}
+
+.footerBody {
+    color: gray;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.half1 {
+    padding-right: 50px;
+    font-size: smaller;
+}
+
+.half1 .terms {
+    display: inline;
+}
+.half1 div{
+    margin-top: 20px;
+}
+.half1 p{
+    margin-right: 30px;
+}
+.half2 {
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    padding-left: 30px;
+    
+}
+
+.half2 img {
+    height: 34px;
+    width: 104px;
+
+}
+.half2 p{
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+
+.last {
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    height: 50px;
+    background-color: #002B51;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: gray;
+    font-size: smaller;
+
+}
+.last p{
+    padding-right: 20px;
+    margin-left: 20px;
+
+}
+.end{
+    border-right-style: solid;
+    border-width: 1px;
+}
